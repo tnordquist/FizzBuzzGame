@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     } else {
       passiveCorrect++;
     }
-  } // updateTally()
+  }// updateTally()
 
   private void updateTallyDisplay() {
     activeCorrectView.setText(getString(R.string.active_correct, activeCorrect));
